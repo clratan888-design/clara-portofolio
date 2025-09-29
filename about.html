@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Portofolio Clara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        .timeline-content .journey-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 1rem;
+            border: 1px solid var(--border-color);
+        }
+        .skills-container {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+        .skill-tag {
+            background-color: #EEF2FF; /* Latar belakang senada dengan warna primer */
+            color: var(--primary-color-dark);
+            padding: 0.3rem 0.8rem;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div id="progress-bar"></div>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="nav-logo">Portofolio Clara</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger"><div></div><div></div><div></div></div>
+        </div>
+    </nav>
+
+<main style="padding-top: var(--nav-height);">
+    <section>
+        <div class="container">
+            <h2 class="reveal-parent"><span class="reveal-child">My Journey</span></h2>
+            <div class="timeline reveal-parent">
+                <div class="timeline-progress"></div>
+
+                <div class="timeline-item right reveal-child" style="--delay: 0ms;">
+                    <div class="timeline-icon"><i class="fas fa-award"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/compe.jpg" alt="Competitions">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">2017 - Sekarang</p>
+                            <h3>Competitions</h3>
+                            <p>Saya selalu tertantang untuk menguji kemampuan berbicara saya, karena itu saya aktif mengikuti berbagai kompetisi public speaking.</p>
+                            <div class="skills-container">
+                                <span class="skill-tag">Kepercayaan Diri</span>
+                                <span class="skill-tag">Public Speaking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item left reveal-child" style="--delay: 150ms;">
+                    <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/osis.jpg" alt="SMA Regina Pacis Jakarta">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">Juni 2021 - Juni 2023</p>
+                            <h3>Wakil Bendahara Osis</h3>
+                            <p>Perjalanan profesional saya sebenarnya dimulai jauh sebelum saya masuk kuliah. Di sinilah saya pertama kali belajar tentang tanggung jawab yang besar.</p>
+                            <div class="skills-container">
+                                <span class="skill-tag">Manajemen Keuangan</span>
+                                <span class="skill-tag">Tanggung Jawab & Integritas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right reveal-child" style="--delay: 250ms;">
+                    <div class="timeline-icon"><i class="fas fa-bullhorn"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/youthly.jpg" alt="Non Profit Organizations">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">September 2021 - Sekarang</p>
+                            <h3>Owner and Founder</h3>
+                            <p>Mendirikan <strong>Youthly You</strong>, sebuah organisasi nirlaba yang didedikasikan untuk meningkatkan kesadaran kesehatan mental di kalangan generasi muda.</p>
+                            <div class="skills-container">
+                                <span class="skill-tag">Kepemimpinan & Inisiatif</span>
+                                <span class="skill-tag">Membangun Komunitas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item left reveal-child" style="--delay: 350ms;">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/kelas.jpg" alt="Binus University Campus">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">September 2023 - Present</p>
+                            <h3>Information Systems Student</h3>
+                            <p>Perjalanan saya berlanjut di <strong>Universitas Bina Nusantara</strong>, tempat saya mendalami Analisis & Desain Sistem dari dasar-dasarnya.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right reveal-child" style="--delay: 450ms;">
+                    <div class="timeline-icon"><i class="fas fa-hands-helping"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/wp.jpg" alt="HIMSISFO">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">September 2023 - Sekarang</p>
+                            <h3>HIMSISFO (Himpunan Mahasiswa Sistem Informasi) BINUS</h3>
+                            <p>Melalui HIMSISFO, saya mengembangkan minat pada public speaking, di mana saya bertumbuh dari peran sebagai Master of Ceremony (MC) hingga dipercaya menjadi Pembicara Seminar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item left reveal-child" style="--delay: 550ms;">
+                    <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/aslab.jpg" alt="Teaching in Computer Lab">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">Desember 2024 - Sekarang</p>
+                            <h3>Asisten Laboratorium</h3>
+                            <p>Mengajar mata kuliah teknis <strong>UX Research & Design</strong> (Figma), <strong>Database Fundamentals</strong> (Oracle) dan <strong>ISAS</strong> (Figma) mengubah konsep teoretis menjadi keahlian praktis.</p>
+                            <div class="skills-container">
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">Draw.io</span>
+                                <span class="skill-tag">Oracle SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right reveal-child" style="--delay: 650ms;">
+                    <div class="timeline-icon"><i class="fas fa-users-cog"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="assets/BeenlinguaMentor.jpg" alt="Mentoring">
+                        </div>
+                        <div class="timeline-text-content">
+                            <p class="timeline-date">Sekarang</p>
+                            <h3>Beelingua Mentor</h3>
+                            <p>Membantu mahasiswa Binus Univeristy menyelesaikan course <strong>Beelingua</strong>.</p>
+                            <div class="skills-container">
+                                <span class="skill-tag">Mentoring</span>
+                                <span class="skill-tag">Manajemen Waktu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+
+            
+    </main>
+
+    <section class="cta-section reveal-parent">
+        <h2 class="reveal-child">Tertarik untuk Berkolaborasi?</h2>
+        <p class="reveal-child">Saya sedang aktif mencari peluang magang di bidang Business Analyst atau Cloud Consultant. Mari lihat bagaimana saya dapat memberikan kontribusi bagi tim Anda.</p>
+        <a href="projects.html" class="btn reveal-child">Lihat Proyek Saya</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Clara Devina Renatan</h4>
+                    <p>Mahasiswa Sistem Informasi dengan fokus pada analisis proses bisnis dan Cloud Computing.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Email</h4>
+                    <ul>
+                        <li><a href="mailto:clara.renatan@binus.ac.id">clara.renatan@binus.ac.id</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/clara-devina-renatan-6b59b2264" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/clratan888-design" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/clradev?igsh=cjdlODVxcmxnc2lz&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clara Devina Renatan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
